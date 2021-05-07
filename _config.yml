@@ -24,10 +24,12 @@ twitter_username: jwbro
 github_username:  jbromley
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+markdown: GFM
 theme: minima
 plugins:
   - jekyll-feed
+highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
